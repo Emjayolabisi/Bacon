@@ -1,0 +1,63 @@
+/* ##################################################### TAG SELECTORS ############################################# */
+
+body{
+    background-color: burlywood;
+}
+h1{
+    color: rgb(49, 8, 231);
+    font-size:67px ;
+}
+
+p{
+    font-size: 99px;
+}
+
+
+
+
+
+/* ##################################################### CLASS SELECTORS ############################################# */
+
+.steak{
+    background-color: green;
+}
+
+
+.bacon{
+    background-color: red;
+}
+
+.paragrapgh{
+    font-size: 40px;
+
+}
+
+.danger{
+    font-size: 22px;
+}
+
+/*INHERITANCE IN CSS
+    it should be noted that ID is more specific than class which is more specific than tags. examples of these can be seen in the codes written 
+    on this page. The ID and the classes have been strategically designed to override some tags. This can be further confirmed using chrome 
+    developer tools */
+
+
+/* ##################################################### ID SELECTORS ############################################# */
+
+#heading{
+    background: whitesmoke;
+    color: red;
+}
+
+/* ##################################################### PSEUDO CLASSES ############################################# */
+
+img:hover{
+    background-color: chocolate;
+    border-radius: 100%;
+}
+
+/* Don't leave space between the tag and the pseudo class or else, it won't work */
+
+
+
+ 
